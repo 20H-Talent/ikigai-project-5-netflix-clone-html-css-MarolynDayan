@@ -23,7 +23,7 @@
     scroll-behavior: smooth;
 
     img {
-        margin-right: 6px;
+        margin-right: 5px;
     }
 }
 
@@ -37,16 +37,20 @@
 .small_scroll_1 {
     margin-top: 61px;
 }
-.small_scroll_2,
-.small_scroll_5{
+
+.small_scroll_2 {
+    margin-top: 40px ;
+}
+
+.small_scroll_3 { 
     margin-top: 51px;
 }
-.small_scroll_3{
+
+.small_scroll_4,
+.small_scroll_5  {
     margin-top: 50px;
 }
-.small_scroll_4{
-    margin-top: 52px;
-}
+
 .scroll_2_h2 {
     padding-top: 2px;
     height: 25px;
@@ -59,16 +63,25 @@
     color: #ffffff;
 }
 
-.progress{
+// "continue watching" design=================
+.progress {
     display: flex;
+    margin-top: 5px;
+    margin-left: 42px;
 }
+
 .progress-gris {
 	height: 4px;
-	width: 132px;
+	width: 93px;
 	background-color: #606060;
 }
+
 .progress-red {
 	height: 4px;
 	width: 39px;
 	background-color: #B3212C;
+}
+
+.initial_margin {
+    margin-left: 60px;
 }

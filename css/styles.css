@@ -396,7 +396,7 @@ nav ul {
   scroll-behavior: smooth;
 }
 .scroll img {
-  margin-right: 6px;
+  margin-right: 5px;
 }
 
 .initial_film {
@@ -407,17 +407,17 @@ nav ul {
   margin-top: 61px;
 }
 
-.small_scroll_2,
-.small_scroll_5 {
-  margin-top: 51px;
+.small_scroll_2 {
+  margin-top: 40px;
 }
 
 .small_scroll_3 {
-  margin-top: 50px;
+  margin-top: 51px;
 }
 
-.small_scroll_4 {
-  margin-top: 52px;
+.small_scroll_4,
+.small_scroll_5 {
+  margin-top: 50px;
 }
 
 .scroll_2_h2 {
@@ -434,11 +434,13 @@ nav ul {
 
 .progress {
   display: flex;
+  margin-top: 5px;
+  margin-left: 42px;
 }
 
 .progress-gris {
   height: 4px;
-  width: 132px;
+  width: 93px;
   background-color: #606060;
 }
 
@@ -446,6 +448,66 @@ nav ul {
   height: 4px;
   width: 39px;
   background-color: #B3212C;
+}
+
+.initial_margin {
+  margin-left: 60px;
+}
+
+footer {
+  margin: 148px 0 0 229px;
+}
+
+.footer_menu {
+  display: flex;
+  padding: 1px 0 0 1px;
+}
+.footer_menu ul {
+  list-style: none;
+  color: #7f7f7f;
+}
+.footer_menu ul li {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+}
+
+.first_footer_column {
+  padding: 0;
+}
+
+.second_footer_column {
+  padding-left: 141px;
+}
+
+.third_footer_column {
+  padding-left: 158px;
+}
+
+.fourth_footer_column {
+  padding-left: 184px;
+}
+
+.facebook {
+  margin-right: 22px;
+}
+
+.instagram {
+  margin-right: 21px;
+}
+
+.twitter {
+  margin-right: 14px;
+}
+
+.copy {
+  margin: 67px 0 20px 0;
+  color: #7f7f7f;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 7px;
 }
 
 .innocents_info {
