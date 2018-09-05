@@ -1,0 +1,74 @@
+
+// big scroll design=================
+.big_scroll {
+    margin: 98px 0 0 0;
+}
+
+.scroll_1_h2 {
+    padding-top: 2px;
+    height: 25px;
+    width: 203px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    margin-left: 58px;
+    letter-spacing: 0.16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+    img {
+        margin-right: 6px;
+    }
+}
+
+.initial_film {
+    margin-left: 58px;
+}
+
+
+// smallscroll design=================
+
+.small_scroll_1 {
+    margin-top: 61px;
+}
+.small_scroll_2,
+.small_scroll_5{
+    margin-top: 51px;
+}
+.small_scroll_3{
+    margin-top: 50px;
+}
+.small_scroll_4{
+    margin-top: 52px;
+}
+.scroll_2_h2 {
+    padding-top: 2px;
+    height: 25px;
+    width: 203px;
+    margin-bottom: 9px;
+    margin-left: 58px;
+    letter-spacing: 0.16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.progress{
+    display: flex;
+}
+.progress-gris {
+	height: 4px;
+	width: 132px;
+	background-color: #606060;
+}
+.progress-red {
+	height: 4px;
+	width: 39px;
+	background-color: #B3212C;
+}
