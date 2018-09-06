@@ -1,0 +1,34 @@
+
+header:hover {
+    background-color: #141414;
+}
+
+// film overlay transition=================
+
+.film_info {
+    
+    ul {
+    list-style: none;
+    display: flex;
+    }
+}
+.film {
+    position: relative;
+}
+.film_overlay {
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+    left: 0;
+    margin: 0 4px 0 58px;
+    background-color: gray;
+    opacity: 0;
+}
+
+.film_overlay:hover {
+    opacity: 1;
+}
+
+
+
